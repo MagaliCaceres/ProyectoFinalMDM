@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo -->
+    <link rel="shortcut icon" href="imagenes/logo/logo.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="wow/wow.js"></script>
+    <!-- Titulo -->
+    <title>MDM</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- inicio de barra de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <!-- logo -->
+                <a class="logo col-xl-6 col-lg-4 col-md-2" href="#">MDM</a>
+                <!-- boton -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="navLink" href="#">Inicio</a>
+                        </li>
+                        <!-- menu desplegable -->
+                        <li class="nav-item dropdown">
+                            <a class="navLink dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Productos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="paginas/ocular/ocular.html">Protección Ocular</a>
+                                </li>
+                                <li><a class="dropdown-item" href="paginas/respiratoria/respiratoria.html">Protección
+                                        Respiratoria</a></li>
+                                <li><a class="dropdown-item" href="paginas/craneana/craneana.html">Protección
+                                        Craneana</a></li>
+                                <li><a class="dropdown-item"
+                                        href="paginas/indumentaria/indumentaria.html">Indumentaría</a></li>
+                                <li><a class="dropdown-item" href="paginas/guantes/guantes.html">Guantes de
+                                        Proteccion</a></li>
+                                <li><a class="dropdown-item" href="paginas/calzado/calzado.html">Calzado de
+                                        Seguridad</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navLink" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navLink" href="#servicios">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navLink" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin de barra de navegacion -->
+    </header>
+    <main>
+        <!-- inicio de jumbotron -->
+        <div class="jumbotron transicion">
+            <div class="lineaMdm"></div>
+            <h1>MDM</h1>
+            <h3>Distruibidor Industrial</h3>
+            <p>Elementos de Protección Personal y Seguridad Industrial</p>
+            <button type="button" class="btn btn-danger balanceo"><a href="#nosotros">Mas info</a></button>
+        </div>
+        <!-- Fin de jumbotron -->
+    </main>
+    <div class="titulosSesiones" data-aos="fade-down-bootom">
+        <h2>PRODUCTOS</h2>
+        <p>Categorias de nuestros productos</p>
+    </div>
+    <section class="productos container-fluid" data-aos="fade-down-bootom>
+        <div class=" separador">
+        </div>
+        <div class="row categorias" id="categorias">
+            <article class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <a href="paginas/ocular/ocular.html">
+                    <img src="imagenes/index/productos/proteccionOcular.png" alt="proteccion ocular">
+                </a>
+                <a href="paginas/ocular/ocular.html" class="btn">Proteccion Ocular</a>
+            </article>
+            <article class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <a href="paginas/respiratoria/respiratoria.html">
+                    <img src="imagenes/index/productos/proteccionRespiratoria.png" alt="proteccion respiratoria">
+                </a>
+                <a href="paginas/respiratoria/respiratoria.html" class="btn">Proteccion Respiratoria</a>
+            </article>
+            <article class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <a href="paginas/craneana/craneana.html">
+                    <img src="imagenes/index/productos/proteccionCraneana.png" alt="proteccion craneana">
+                </a>
+                <a href="paginas/craneana/craneana.html" class="btn">Proteccion Craneana</a>
+            </article>
+            <article class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <a href="paginas/guantes/guantes.html">
+                    <img src="imagenes/index/productos/guantes.png" alt="guantes industriales">
+                </a>
+                <a href="paginas/guantes/guantes.html" class="btn">Guantes de Protección</a>
+            </article>
+            <article class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <a href="paginas/calzado/calzado.html">
+                    <img src="imagenes/index/productos/calzado.png" alt="Calzado de seguridad">
+                </a>
+                <a href="paginas/calzado/calzado.html" class="btn">Calzado de Seguridad</a>
+            </article>
+            <article class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <a href="paginas/indumentaria/indumentaria.html">
+                    <img src="imagenes/index/productos/indumentaria.png" alt="indumentaria industrial">
+                </a>
+                <a href="paginas/indumentaria/indumentaria.html" class="btn">Indumentaría</a>
+            </article>
+        </div>
+        <div class="separador"></div>
+    </section>
+    <section id="nosotros" class="nosotros container-fluid" data-aos="fade-down-bootom">
+        <div class="textoNosotrosLeft">
+            <h2>QUIENES SOMOS</h2>
+            <p><strong>MDM</strong> es una Distribuidora de <strong>Elementos de Protección Personal y Seguridad
+                    Industrial</strong> , con 18 años de experiencia en el rubro, es por esto que podemos asesorar de
+                forma adecuada y personalizada según las necesidades de cada uno nuestros clientes.
+                Contamos con mas de 1000 productos de seguridad e higiene, lo que permite que encuentres todo que buscas
+                en un mismo lugar.</p>
+            <p>Lo que nos diferencia del resto es dar <strong>respuestas inmediatas, tener los mejores precios del
+                    mercado y llegar a todo el país.</strong> Estas son solo alguna de las razones por las cuales nos
+                hemos mantenido en este mercado competitivo y cambiante.</p>
+        </div>
+        <div class="imgNosotrosRigth" alt="imagen de casco"></div>
+    </section>
+    <section id="servicios" data-aos="fade-down-bootom">
+        <div class="container-fluid servicios">
+            <div class="row servicioUno">
+                <article class="col-sm-5 col-md-4 col-lg-4 col-xl-2 servicioDos bote">
+                    <i class="fa-solid fa-truck-arrow-right"></i>
+                    <h3>Entregas</h3>
+                    <p>Realizamos entregas punto a punto en <strong>Cap. Fed. y GBA.</strong></p>
+                </article>
+                <article class="col-sm-5 col-md-4 col-lg-4 col-xl-2 servicioDos bote">
+                    <i class="fa-solid fa-download"></i>
+                    <h3>Catálogo</h3>
+                    <p>Proximamente nuestro catalogo digital</p>
+                    <!-- <p>Descargue nuestro catalogo actualizado aqui</p> <a class="btn" href="#">Catálogo - PDF</a> -->
+                </article>
+                <article class="col-sm-5 col-md-4 col-lg-4 col-xl-2 servicioDos bote">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <h3>Atención al Cliente</h3>
+                    <p>De <strong>Lunes a Viernes</strong> a partir de las <strong>7:30 hs.</strong> </p>
+                </article>
+                <article class="col-sm-5 col-md-4 col-lg-4 col-xl-2 servicioDos bote">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <h3>Presupuesto</h3>
+                    <p>Armamos un presupuesto segun tus necesidades.</p>
+                </article>
+            </div>
+        </div>
+
+    </section>
+    <section id="contacto" class="contacto" data-aos="fade-down-bootom">
+        <div class="formulario">
+            <h2>FORMULARIO</h2>
+            <p>Complete el formulario para contactar con nosotros</p>
+        </div>
+        <div class="formularioContenido">
+            <div class="formularioLeft balanceo" alt="imagen de trabajadores dandose la mano"></div>
+            <form class="formularioRight">
+                <div class="form-floating mb-3 ">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Nombre...</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Apellido...</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email...</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Telefono...</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option class="tipoCliente" selected>Tipo de Cliente...</option>
+                        <option value="1">Empresa</option>
+                        <option value="2">Autónomo</option>
+                    </select>
+                    <label for="floatingSelect">Elegir</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Consulta...</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input checkbox" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Desea recibir notificaciones acerca de
+                        las promociones de nuestros productos.</label>
+                </div>
+                <input class="btn enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 contenidoFooter">
+                    <h3>Información</h3>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicio">Servicio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 contenidoFooter">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="paginas/ocular/ocular.html">Protección Ocular</a></li>
+                        <li><a href="paginas/respiratoria/respiratoria.html">Protección Respiratoria</a></li>
+                        <li><a href="paginas/craneana/craneana.html">Protección Craneana</a></li>
+                        <li><a href="paginas/indumentaria/indumentaria.html">Indumentaría</a></li>
+                        <li><a href="paginas/guantes/guantes.html">Guantes de Protección</a></li>
+                        <li><a href="paginas/calzado/calzado.html">Calzado de Seguridad</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 contenidoFooter">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p>+54 11 1111-1111</p>
+                    </ul>
+                    <h3>Horario</h3>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>8.30 a 13:00 / 13.30 a 17:00</p>
+                </div>
+                <div class="col-xl-3 col-lg-12 col-md-6 redes">
+                    <a href="#"><i class="fa-brands fa-facebook bote"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp bote"></i></a>
+                    <a href="#"><i class="fa-brands fa-yahoo bote"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="firma">
+        <h6>Elementos de Protección Personal y Seguridad Industrial | Buenos Aires - Argentina</h6>
+    </div>
+    <a href="#" class="subir">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="wow/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
