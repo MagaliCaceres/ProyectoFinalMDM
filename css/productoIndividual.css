@@ -1,0 +1,75 @@
+.carousel-item img {
+  transition: 0.5s linear;
+}
+.carousel-item img:hover {
+  transform: scale(0.9);
+}
+
+.informacionProducto {
+  padding: 30px;
+  padding-left: 40px;
+  font-family: "Rubik", sans-serif;
+}
+.informacionProducto h2 {
+  color: #d01714;
+  font-size: 40px;
+}
+.informacionProducto button {
+  background-color: #d01714;
+  border-radius: 40px 0px;
+}
+.informacionProducto button a {
+  color: #fff;
+  text-decoration: none;
+}
+.informacionProducto button a:hover {
+  color: #000;
+}
+.informacionProducto button a i {
+  padding: 0px 10px;
+}
+
+.codigo {
+  color: #000;
+}
+.codigo strong {
+  color: #d01714;
+}
+
+.descripcionProducto {
+  font-size: 20px;
+}
+
+.precioProducto {
+  font-size: 30px;
+}
+
+.talles {
+  margin: 30px 0px;
+}
+.talles label {
+  padding-right: 10px;
+}
+
+.cantidad {
+  margin-bottom: 30px;
+}
+
+.descripcionCompleta {
+  font-family: "Mulish", sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+}
+.descripcionCompleta h3 {
+  color: #d01714;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.descripcionCompleta li {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+.descripcionCompleta li strong {
+  color: #d01714;
+}/*# sourceMappingURL=productoIndividual.css.map */

@@ -1,0 +1,157 @@
+// COLORES
+$color1: #d01714;
+$color2: #000;
+$color3: #fff;
+// FUENTES
+$fuente1: 'Rubik',
+sans-serif;
+$fuente2: 'Mulish',
+sans-serif;
+
+.seccionProductos {
+    display: grid;
+    grid-template-columns: 0.3fr 1.4fr;
+
+    aside {
+        padding: 20px;
+        padding-top: 100px;
+
+        h4 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                margin-bottom: 12px;
+
+                a {
+                    color: rgb(98, 98, 98);
+                    text-decoration: none;
+
+                    &:hover {
+                        color:  $color2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navegacionProductos {
+    padding: 20px;
+    margin-top: 20px;
+
+    li {
+        font-family: $fuente1;
+        
+        a {
+            color: $color1;
+            text-decoration: none;
+
+            &:hover {
+                color: $color2;
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        justify-content: end;
+
+        input {
+            width: 50%;
+        }
+
+        button {
+            background-color: $color1;
+            color: $color3;
+            font-family: $fuente1;
+        }
+
+        i {
+            color: $color1;
+            padding: 5px;
+            font-size: 22px;
+            padding-left: 12px;
+            padding-top: 8px;
+
+            &:hover {
+                color:  $color2;
+            }
+        }
+    }
+}
+
+.productosTodos {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-around;
+
+    article img {
+        transition: 0.5s linear;
+
+        &:hover {
+            transform: scale(.900);
+        }
+    }
+}
+
+.card-body a {
+    font-size: 22px;
+    font-family: $fuente1;
+    color: $color1;
+    text-decoration: none;
+
+    &:hover {
+        color: $color2;
+    }
+}
+
+.card-body h4 {
+    text-align: start;
+}
+
+
+.iconos {
+    text-align: end;
+    margin-top: 20px;
+
+    button {
+        background-color: $color1;
+        text-decoration: none;
+        margin-right: 30px;
+
+        &:hover {
+            background-color: $color2;
+        }
+    }
+
+    a {
+        color: $color3;
+        font-size: 16px;
+        font-family: $fuente1;
+
+        &:hover {
+            color: $color3;
+        }
+    }
+
+    i {
+        color: $color1;
+        padding: 5px;
+        font-size: 25px;
+
+        &:hover {
+            color: $color2;
+        }
+    }
+}
+
+.numeracion {
+    display: flex;
+    justify-content: center;
+}

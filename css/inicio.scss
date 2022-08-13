@@ -1,0 +1,243 @@
+// COLORES
+$color1: #d01714;
+$color2: #000;
+$color3: #fff;
+// FUENTES
+$fuente1: 'Rubik',
+sans-serif;
+$fuente2: 'Mulish',
+sans-serif;
+
+// MAIN
+main {
+    height: 40rem;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/index/fondoMain2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron {
+    padding-top: 200px;
+    padding-left: 40px;
+    font-family: $fuente1;
+
+    div {
+        background-color: $color1;
+        height: 10px;
+        width: 250px;
+        margin-top: -100px;
+    }
+
+    h1 {
+        color: $color2;
+        font-size: 180px;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
+    h3 {
+        font-size: 50px;
+        color: $color1;
+    }
+
+    p {
+        font-family: $fuente2;
+        color: $color2;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    button {
+        background-color: $color1;
+        font-size: 20px;
+        border-radius: 20px 0px;
+
+        &:hover {
+            background-color: $color2;
+            border: $color2;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $color3;
+    }
+}
+
+// TITULO SESION 
+.titulosSesiones {
+    padding-top: 40px;
+    padding-left: 50px;
+
+    h2 {
+        font-family: $fuente1;
+        padding-left: -10px;
+        color: $color1;
+        font-weight: bold;
+        font-size: 60px;
+        font-style: italic;
+    }
+
+    p {
+        color: $color2;
+        font-family: $fuente2;
+        font-size: 25px;
+        margin-bottom: -20px;
+    }
+}
+
+.separador {
+    background-color: #d01714;
+    margin-top: 50px;
+    height: 20px;
+}
+
+// CATEGORIA PRODUCTOS
+@import "categoriasProductos.scss";
+
+// NOSOTROS
+.nosotros {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    h2 {
+        font-family: $fuente1;
+        color: $color1;
+        font-weight: bold;
+        font-size: 60px;
+        font-style: italic;
+        padding-top: 30px;
+    }
+
+    p {
+        color: $color2;
+        font-family: $fuente2;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .imgNosotrosRigth {
+        background-image: url(../imagenes/index/nosotros\ .jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px 0px;
+    }
+
+}
+
+// SERVICIOS
+.servicios {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-bottom: 30px;
+
+    div {
+        justify-content: space-around;
+    }
+
+    article {
+        background-color: $color3;
+        margin: 10px;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        border-radius: 30px 0px;
+
+        i {
+            color: $color1;
+            font-size: 50px;
+            padding: 10px;
+        }
+
+        h3 {
+            color: $color1;
+            font-size: 30px;
+            font-family: $fuente1;
+        }
+
+        p {
+            color: $color2;
+            font-family: $fuente2;
+            font-size: 20px;
+        }
+
+        // NO DISPONIBLE EL LINK
+        // a {
+        //     background-color: $color1;
+        //     color: $color3;
+        //     font-family: $fuente2;
+        //     border-radius: 30px 0px;
+        //     font-weight: 600;
+
+        //     &:hover{
+        //          background-color: $color2;
+        //         color: $color1;
+        //      }
+        //
+    }
+}
+
+// CONTACTO 
+.contacto {
+    padding: 20px;
+    background-color: $color1;
+}
+
+.formulario {
+    font-weight: bold;
+
+    h2 {
+        font-family: $fuente1;
+        color: $color3;
+        font-size: 60px;
+        font-style: italic;
+    }
+
+    p {
+        color: $color2;
+        font-family: $fuente2;
+        font-size: 20px;
+    }
+}
+
+.formularioContenido {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    label,
+    option {
+        font-family: $fuente2;
+        font-weight: bold;
+    }
+}
+
+.form-check {
+    color: $color2;
+    margin-top: 10px;
+}
+
+.formularioLeft {
+    margin: 30px;
+    margin-left: 0;
+    background-image: url(../imagenes/index/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px;
+}
+
+.enviar {
+    margin: 10px;
+    background-color: $color2;
+    color: $color3;
+    font-family: $fuente1;
+
+    &:hover {
+        color: $color1;
+    }
+}

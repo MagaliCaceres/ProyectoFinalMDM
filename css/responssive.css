@@ -1,0 +1,352 @@
+@charset "UTF-8";
+@media only screen and (min-width: 2000px) and (max-width: 2560px) {
+  .logo {
+    font-size: 70px;
+  }
+  .navLink {
+    font-size: 38px;
+  }
+  .dropdown-item {
+    font-size: 32px;
+  }
+  .lineaMdm {
+    width: 400px;
+  }
+  .jumbotron h1 {
+    font-size: 280px;
+    margin-bottom: -30px;
+  }
+  .jumbotron h3 {
+    font-size: 60px;
+  }
+  .jumbotron p {
+    font-size: 32px;
+  }
+  .jumbotron button {
+    font-size: 30px;
+  }
+  .titulosSesiones h2 {
+    font-size: 100px;
+  }
+  .titulosSesiones p {
+    font-size: 40px;
+  }
+  .categorias .btn {
+    font-size: 30px;
+  }
+  .textoNosotrosLeft h2 {
+    font-size: 100px;
+  }
+  .textoNosotrosLeft p {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .servicioDos i {
+    font-size: 80px;
+  }
+  .servicioDos h3 {
+    font-size: 50px;
+  }
+  .servicioDos p {
+    font-size: 30px;
+  }
+  .servicioDos a {
+    font-size: 26px;
+  }
+  .formulario h2 {
+    font-size: 90px;
+  }
+  .formulario p {
+    font-size: 30px;
+  }
+  label,
+option {
+    font-size: 25px;
+  }
+  .form-check {
+    font-size: 20px;
+  }
+  .enviar {
+    font-size: 25px;
+  }
+  .redes i {
+    font-size: 80px;
+  }
+  .productoIndividual nav {
+    font-size: 30px;
+  }
+  .codigo {
+    font-size: 30px;
+  }
+  .nombreProducto {
+    font-size: 70px;
+  }
+  .descripcionProducto {
+    font-size: 40px;
+  }
+  .precioProducto {
+    font-size: 50px;
+  }
+  .talles,
+.cantidad {
+    font-size: 25px;
+  }
+  .añadirAlCarrito a {
+    font-size: 25px;
+  }
+  .descripcionCompleta h3 {
+    font-size: 45px;
+  }
+  .descripcionCompleta li {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 1999px) {
+  .logo {
+    font-size: 60px;
+  }
+  .navLink {
+    font-size: 30px;
+  }
+  .dropdown-item {
+    font-size: 28px;
+  }
+  .lineaMdm {
+    width: 300px;
+  }
+  .jumbotron h1 {
+    font-size: 230px;
+    margin-bottom: -30px;
+  }
+  .jumbotron button {
+    font-size: 28px;
+  }
+  .categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .categorias img {
+    margin-left: -85px;
+  }
+  .categorias .btn {
+    margin-left: -50px;
+    font-size: 30px;
+  }
+  .titulosSesiones h2 {
+    font-size: 70px;
+  }
+  .titulosSesiones p {
+    font-size: 35px;
+  }
+  .textoNosotrosLeft h2 {
+    font-size: 70px;
+  }
+  .textoNosotrosLeft p {
+    font-size: 25px;
+  }
+  .servicioDos i {
+    font-size: 70px;
+  }
+  .servicioDos h3 {
+    font-size: 40px;
+  }
+  .servicioDos p {
+    font-size: 25px;
+  }
+  .servicioDos a {
+    font-size: 22px;
+  }
+  .formulario h2 {
+    font-size: 70px;
+  }
+  .formulario p {
+    font-size: 25px;
+  }
+  .input {
+    border: 20px;
+  }
+  label,
+option {
+    font-size: 22px;
+  }
+  .form-check {
+    font-size: 20px;
+  }
+  .enviar {
+    font-size: 20px;
+  }
+  .redes i {
+    font-size: 60px;
+  }
+  .codigo {
+    font-size: 20px;
+  }
+  .nombreProducto {
+    font-size: 50px;
+  }
+  .descripcionProducto {
+    font-size: 30px;
+  }
+  .precioProducto {
+    font-size: 40px;
+  }
+  .talles {
+    font-size: 20px;
+  }
+  .cantidad {
+    font-size: 20px;
+  }
+  .añadirAlCarrito a {
+    font-size: 20px;
+  }
+  .descripcionCompleta h3 {
+    font-size: 40px;
+  }
+  .descripcionCompleta li {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1699px) {
+  .categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .categorias img {
+    margin-left: -85px;
+  }
+  .btn {
+    margin-left: -50px;
+    font-size: 30px;
+  }
+  .codigo {
+    font-size: 20px;
+  }
+  .nombreProducto {
+    font-size: 50px;
+  }
+  .descripcionProducto {
+    font-size: 30px;
+  }
+  .precioProducto {
+    font-size: 40px;
+  }
+  .talles {
+    font-size: 20px;
+  }
+  .cantidad {
+    font-size: 20px;
+  }
+  .añadirAlCarrito a {
+    font-size: 20px;
+  }
+  .descripcionCompleta h3 {
+    font-size: 40px;
+  }
+  .descripcionCompleta li {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .jumbotron p {
+    padding-right: 400px;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 768px) {
+  .jumbotron p {
+    padding-right: 200px;
+  }
+  .productoIndividual,
+.descripcionCompleta {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+  main {
+    height: 40rem;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.645), rgba(255, 255, 255, 0.12)), url(../imagenes/index/fondoMain2.jpg);
+    background-position: right;
+  }
+  .jumbotron h1 {
+    font-size: 150px;
+  }
+  .titulosSesiones {
+    padding-left: 20px;
+  }
+  .titulosSesiones h2 {
+    font-size: 52px;
+  }
+  .nosotros {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 300px;
+  }
+  .imgNosotrosRigth {
+    height: 300px;
+    border-radius: 50px 0px;
+  }
+  .formularioContenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px auto;
+  }
+  .formularioLeft {
+    margin: 20px;
+  }
+  .formulario h2 {
+    font-size: 50px;
+  }
+  aside {
+    width: 100%;
+  }
+  aside h4 {
+    margin-top: -70px;
+  }
+  aside ul {
+    display: flex;
+    flex-direction: row;
+  }
+  aside ul li {
+    padding: 10px;
+  }
+  .seccionProductos {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .productoIndividual,
+.descripcionCompleta {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+  .jumbotron h1 {
+    font-size: 140px;
+  }
+  .jumbotron h3 {
+    text-shadow: 0 0 5px rgba(254, 254, 254, 0.563);
+  }
+  .iconos button {
+    margin-right: 0px;
+    margin-left: -30px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 355px) {
+  .jumbotron {
+    padding-left: 20px;
+  }
+  .jumbotron h1 {
+    font-size: 120px;
+    margin-bottom: 20px;
+  }
+  .jumbotron h3 {
+    font-size: 40px;
+  }
+  .titulosSesiones h2 {
+    font-size: 45px;
+  }
+  .formulario h2 {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=responssive.css.map */

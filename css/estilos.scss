@@ -1,0 +1,49 @@
+/* fuente Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+/* rubik*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+/* Mulish */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=swap');
+
+// COLORES
+$color1: #d01714;
+$color2: #000;
+$color3: #fff;
+// FUENTES
+$fuente1: 'Rubik',
+sans-serif;
+$fuente2: 'Mulish',
+sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// HEADER
+@import "header.scss";
+// PAGINA INDEX
+@import "inicio.scss";
+
+// FOOTER
+@import "footer.scss";
+
+// BOTON SUBIR
+@import "subir.scss";
+
+// PRODUCTOS
+@import "productos.scss";
+
+// PRODUCTO INDIVIDUAL
+@import "productoIndividual";
+
+// ANIMACIONES
+@import "animaciones.scss";
+
+// MEDIA QUERY
+@import "responssive.scss";

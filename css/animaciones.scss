@@ -1,0 +1,74 @@
+// TRANSICIÓN
+.transicion {
+    animation: 2s transicion 1;
+    transform-origin: top left;
+}
+
+@keyframes transicion {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+}
+
+// BOTE 1
+.bote:hover {
+    animation: 2s bote infinite;
+}
+
+@keyframes bote {
+
+    20%, 50%, 80% {
+        -webkit-transform: translateY(20);
+    }
+
+    65% {
+        -webkit-transform: translateY(-20px);
+    }
+}
+
+// BOTE 2
+.boteDos:hover {
+    animation: 3s bote 1;
+}
+
+// BALANCEO 1
+.balanceo {
+    animation: 3s balanceo infinite;
+}
+
+@keyframes balanceo {
+    20% {
+        -webkit-transform: rotate(-0.1deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: rotate(0.5deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: rotate(-0.1deg);
+    }
+}
+
+// BALANCEO 2
+.balanceoDos {
+    animation: 3s balanceo infinite;
+}
+
+@keyframes balanceoDos {
+    20% {
+        -webkit-transform: rotate(-2deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: rotate(1deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: rotate(-2deg);
+    }
+}

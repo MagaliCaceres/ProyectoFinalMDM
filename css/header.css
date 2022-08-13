@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #000;
+  text-align: center;
+}
+.navbar button {
+  background-color: rgba(207, 42, 39, 0.6196078431);
+}
+
+.logo {
+  font-family: "Rubik", sans-serif;
+  color: #d01714;
+  text-decoration: none;
+  font-size: 45px;
+  text-align: start;
+}
+.logo:hover {
+  color: #fff;
+}
+
+.nav-item {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+}
+.nav-item ul {
+  background-color: #d01714;
+}
+.nav-item ul a {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 22px;
+}
+.nav-item ul a:hover {
+  background-color: #d01714;
+  color: #000;
+}
+
+.navLink {
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+}
+.navLink:hover {
+  color: #d01714;
+}
+.navLink:nth-of-type(1):hover {
+  border-bottom: 3px solid #d01714;
+}/*# sourceMappingURL=header.css.map */

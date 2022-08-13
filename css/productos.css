@@ -1,0 +1,123 @@
+.seccionProductos {
+  display: grid;
+  grid-template-columns: 0.3fr 1.4fr;
+}
+.seccionProductos aside {
+  padding: 20px;
+  padding-top: 100px;
+}
+.seccionProductos aside h4 {
+  margin-bottom: 20px;
+}
+.seccionProductos aside ul {
+  display: flex;
+  flex-direction: column;
+}
+.seccionProductos aside ul li {
+  margin-bottom: 12px;
+}
+.seccionProductos aside ul li a {
+  color: rgb(98, 98, 98);
+  text-decoration: none;
+}
+.seccionProductos aside ul li a:hover {
+  color: #000;
+}
+
+.navegacionProductos {
+  padding: 20px;
+  margin-top: 20px;
+}
+.navegacionProductos li {
+  font-family: "Rubik", sans-serif;
+}
+.navegacionProductos li a {
+  color: #d01714;
+  text-decoration: none;
+}
+.navegacionProductos li a:hover {
+  color: #000;
+}
+.navegacionProductos form {
+  display: flex;
+  justify-content: end;
+}
+.navegacionProductos form input {
+  width: 50%;
+}
+.navegacionProductos form button {
+  background-color: #d01714;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+.navegacionProductos form i {
+  color: #d01714;
+  padding: 5px;
+  font-size: 22px;
+  padding-left: 12px;
+  padding-top: 8px;
+}
+.navegacionProductos form i:hover {
+  color: #000;
+}
+
+.productosTodos {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-around;
+}
+.productosTodos article img {
+  transition: 0.5s linear;
+}
+.productosTodos article img:hover {
+  transform: scale(0.9);
+}
+
+.card-body a {
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+  color: #d01714;
+  text-decoration: none;
+}
+.card-body a:hover {
+  color: #000;
+}
+
+.card-body h4 {
+  text-align: start;
+}
+
+.iconos {
+  text-align: end;
+  margin-top: 20px;
+}
+.iconos button {
+  background-color: #d01714;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.iconos button:hover {
+  background-color: #000;
+}
+.iconos a {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+.iconos a:hover {
+  color: #fff;
+}
+.iconos i {
+  color: #d01714;
+  padding: 5px;
+  font-size: 25px;
+}
+.iconos i:hover {
+  color: #000;
+}
+
+.numeracion {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=productos.css.map */

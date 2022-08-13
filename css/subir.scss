@@ -1,0 +1,27 @@
+// COLORES
+$color1: #d01714;
+$color2: #000;
+$color3: #fff;
+// FUENTES
+$fuente1: 'Rubik',
+sans-serif;
+$fuente2: 'Mulish',
+sans-serif;
+
+// SUBIR
+.subir {
+    width: 50px;
+    background-color: $color1;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: $color3;
+
+    &:hover {
+        color: $color2;
+    }
+}

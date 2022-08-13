@@ -1,0 +1,66 @@
+/* FOOTER */
+footer {
+  padding-bottom: 10px;
+  background-color: #000;
+}
+
+.contenidoFooter {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.contenidoFooter h3 {
+  font-family: "Rubik", sans-serif;
+  color: rgba(208, 23, 20, 0.6117647059);
+  font-size: 25px;
+}
+.contenidoFooter ul {
+  margin-left: -30px;
+}
+.contenidoFooter ul li {
+  list-style: none;
+}
+.contenidoFooter ul li a {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+.contenidoFooter ul li a:hover {
+  color: #d01714;
+}
+.contenidoFooter i {
+  color: rgba(208, 23, 20, 0.6117647059);
+  font-size: 22px;
+  padding: 5px;
+}
+.contenidoFooter p {
+  display: inline;
+  color: #fff;
+  font-size: 22px;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.redes i {
+  color: rgba(208, 23, 20, 0.6117647059);
+  font-size: 50px;
+  letter-spacing: 10px;
+  padding: 10px;
+}
+.redes i:hover {
+  color: #fff;
+}
+
+.firma {
+  background-color: #fff;
+}
+.firma h6 {
+  color: #000;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 20px;
+}/*# sourceMappingURL=footer.css.map */

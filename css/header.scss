@@ -1,0 +1,68 @@
+// COLORES
+$color1: #d01714;
+$color2: #000;
+$color3: #fff;
+// FUENTES
+$fuente1: 'Rubik',
+sans-serif;
+$fuente2: 'Mulish',
+sans-serif;
+
+// HEADER
+
+.navbar {
+    background-color: $color2;
+    text-align: center;
+
+    button {
+        background-color: #cf2a279e;
+    }
+}
+
+.logo {
+    font-family: $fuente1;
+    color: $color1;
+    text-decoration: none;
+    font-size: 45px;
+    text-align: start;
+
+    &:hover {
+        color: $color3;
+    }
+}
+
+.nav-item {
+    font-family: $fuente2;
+    font-weight: 600;
+
+    ul {
+        background-color: $color1;
+
+        a{
+            font-family: $fuente2;
+            font-weight: 600;
+            color: $color3;
+            font-size: 22px;
+    
+            &:hover{
+                background-color: $color1;
+                color: $color2;
+            }
+        }
+    }
+}
+
+.navLink{
+    color: $color3;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+
+    &:hover {
+        color: $color1;
+    }
+
+    &:nth-of-type(1):hover {
+        border-bottom: 3px solid $color1;
+    }
+}
