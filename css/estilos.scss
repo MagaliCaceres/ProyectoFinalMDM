@@ -15,6 +15,19 @@ sans-serif;
 $fuente2: 'Mulish',
 sans-serif;
 
+
+// MIXING QUE APLICA LA MODIFICACIÓN DE TAMAÑO DE FUENTE, Y COLOR
+@mixin TamañoFuente-Color($font-size, $color) {
+    font-size: $font-size;
+    color: $color;
+}
+
+// MIXING QUE APLICA LA MODIFICACIÓN DE COLOR Y COLOR DE FONDO
+@mixin Color-Fondo($color, $background-color) {
+    color: $color;
+    background-color: $background-color;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,25 +38,26 @@ html {
     scroll-behavior: smooth;
 }
 
-// HEADER
-@import "header.scss";
+//HEADER 
+@import "_header.scss";
+
 // PAGINA INDEX
-@import "inicio.scss";
+@import "_inicio.scss";
 
 // FOOTER
-@import "footer.scss";
+@import "_footer.scss";
 
 // BOTON SUBIR
-@import "subir.scss";
+@import "_subir.scss";
 
 // PRODUCTOS
-@import "productos.scss";
+@import "_productos.scss";
 
 // PRODUCTO INDIVIDUAL
-@import "productoIndividual";
+@import "_productoIndividual.scss";
 
 // ANIMACIONES
-@import "animaciones.scss";
+@import "_animaciones.scss";
 
 // MEDIA QUERY
-@import "responssive.scss";
+@import "_responssive.scss";

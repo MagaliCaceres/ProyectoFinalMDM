@@ -1,13 +1,3 @@
-// COLORES
-$color1: #d01714;
-$color2: #000;
-$color3: #fff;
-// FUENTES
-$fuente1: 'Rubik',
-sans-serif;
-$fuente2: 'Mulish',
-sans-serif;
-
 /* FOOTER */
 footer {
     padding-bottom: 10px;
@@ -20,8 +10,7 @@ footer {
 
     h3 {
         font-family: $fuente1;
-        color: #d017149c;
-        font-size: 25px;
+        @include TamañoFuente-Color(25px, #d017149c);
     }
 
     ul {
@@ -31,10 +20,9 @@ footer {
             list-style: none;
 
             a {
+                @include TamañoFuente-Color(22px, $color3);
                 font-family: $fuente2;
-                color: $color3;
                 text-decoration: none;
-                font-size: 22px;
 
                 &:hover {
                     color: $color1;
@@ -44,15 +32,13 @@ footer {
     }
 
     i {
-        color: #d017149c;
-        font-size: 22px;
+        @include TamañoFuente-Color(22px, #d017149c);
         padding: 5px;
     }
 
     p {
+        @include TamañoFuente-Color(22px, $color3);
         display: inline;
-        color: $color3;
-        font-size: 22px;
     }
 }
 
@@ -62,26 +48,34 @@ footer {
     align-items: flex-end;
 
     i {
-        color: #d017149c;
-        font-size: 50px;
+        @include TamañoFuente-Color(50px, #d017149c);
         letter-spacing: 10px;
         padding: 10px;
 
-        &:hover {
-            color: $color3;
-        }
     }
 }
 
+$redes: (
+    whatsapp: #2aa00f,
+    facebook:  #0f22a0,
+    yahoo: #940fa0
+);
+
+@each $red, $color in $redes {
+    .fa-#{$red} {
+        &:hover {
+            color: $color;
+        }
+    }
+}
 .firma {
-    background-color: #fff;
+    background-color: $color3;
 
     h6 {
-        color: #000;
-        font-family: 'Rubik', sans-serif;
+        color: $color2;
+        font-family: $fuente1;
         text-align: center;
         letter-spacing: 0.5px;
         padding: 20px;
     }
 }
-

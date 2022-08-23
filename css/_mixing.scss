@@ -1,0 +1,13 @@
+@mixin EstiloGeneral{
+    // MIXING QUE APLICA LA MODIFICACIÓN DE TAMAÑO DE FUENTE, Y COLOR
+    @mixin TamañoFuente-Color($font-size, $color) {
+        // font-size: $font-size;
+        // color: $color;
+    }
+
+    // MIXING QUE APLICA LA MODIFICACIÓN DE COLOR Y COLOR DE FONDO
+    @mixin Color-Fondo($color, $background-color) {
+        color: $color;
+        background-color: $background-color;
+    }
+}

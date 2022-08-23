@@ -1,12 +1,4 @@
-// COLORES
-$color1: #d01714;
-$color2: #000;
-$color3: #fff;
-// FUENTES
-$fuente1: 'Rubik',
-sans-serif;
-$fuente2: 'Mulish',
-sans-serif;
+// PRODUCTOS INDIVIDUALES
 
 .carousel-item img {
     transition: 0.5s linear;
@@ -22,8 +14,7 @@ sans-serif;
     font-family: $fuente1;
 
     h2 {
-        color: $color1;
-        font-size: 40px;
+        @include TamañoFuente-Color(40px, $color1);
     }
 
     button {
@@ -81,8 +72,7 @@ sans-serif;
     margin-top: 20px;
 
     h3 {
-        color: $color1;
-        font-size: 30px;
+        @include TamañoFuente-Color(30px, $color1);
         margin-bottom: 20px;
         margin-top: 20px;
     }

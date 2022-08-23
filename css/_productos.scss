@@ -1,12 +1,4 @@
-// COLORES
-$color1: #d01714;
-$color2: #000;
-$color3: #fff;
-// FUENTES
-$fuente1: 'Rubik',
-sans-serif;
-$fuente2: 'Mulish',
-sans-serif;
+// PRODUCTOS GENERALES
 
 .seccionProductos {
     display: grid;
@@ -66,15 +58,13 @@ sans-serif;
         }
 
         button {
-            background-color: $color1;
-            color: $color3;
+            @include Color-Fondo($color3, $color1);
             font-family: $fuente1;
         }
 
         i {
-            color: $color1;
+            @include TamañoFuente-Color(22px, $color1);
             padding: 5px;
-            font-size: 22px;
             padding-left: 12px;
             padding-top: 8px;
 
@@ -101,9 +91,8 @@ sans-serif;
 }
 
 .card-body a {
-    font-size: 22px;
+    @include TamañoFuente-Color(22px, $color1);
     font-family: $fuente1;
-    color: $color1;
     text-decoration: none;
 
     &:hover {
@@ -131,8 +120,7 @@ sans-serif;
     }
 
     a {
-        color: $color3;
-        font-size: 16px;
+        @include TamañoFuente-Color(16px, $color3);
         font-family: $fuente1;
 
         &:hover {
@@ -141,9 +129,8 @@ sans-serif;
     }
 
     i {
-        color: $color1;
+        @include TamañoFuente-Color(25px, $color1);
         padding: 5px;
-        font-size: 25px;
 
         &:hover {
             color: $color2;
