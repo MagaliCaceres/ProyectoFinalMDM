@@ -1,7 +1,7 @@
 // MAIN
 main {
     height: 40rem;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/index/fondoMain2.jpg);
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/main.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -103,7 +103,7 @@ main {
     }
 
     .imgNosotrosRigth {
-        background-image: url(../imagenes/index/nosotros\ .jpg);
+        background-image: url(../imagenes/nosotros.jpg);
         background-size: cover;
         background-position: center;
         border-radius: 50px 0px;
@@ -146,20 +146,6 @@ main {
             @include TamañoFuente-Color(20px, $color2);
             font-family: $fuente2;
         }
-
-        // NO DISPONIBLE EL LINK
-        // a {
-        //     background-color: $color1;
-        //     color: $color3;
-        //     font-family: $fuente2;
-        //     border-radius: 30px 0px;
-        //     font-weight: 600;
-
-        //     &:hover{
-        //          background-color: $color2;
-        //         color: $color1;
-        //      }
-        //
     }
 }
 
@@ -203,7 +189,7 @@ main {
 .formularioLeft {
     margin: 30px;
     margin-left: 0;
-    background-image: url(../imagenes/index/contacto.jpg);
+    background-image: url(../imagenes/contacto.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50px 0px;

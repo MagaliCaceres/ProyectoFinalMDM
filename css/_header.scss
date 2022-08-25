@@ -11,14 +11,9 @@
 }
 
 .logo {
-    @include TamañoFuente-Color(45px, $color1);
-    font-family: $fuente1;
-    text-decoration: none;
-    text-align: start;
-
-    &:hover {
-        color: $color3;
-    }
+        height: 70px;
+        float: left;
+    
 }
 
 .nav-item {
