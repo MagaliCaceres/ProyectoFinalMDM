@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- DESCRIPCIÓN Y PALABRAS CLABES -->
+    <meta name="description" content="Tienda de Guantes de Protección">
+    <meta name="keywords"  content="proteccion, seguridad, cortes, guantes, manos">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- logo -->
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="wow/wow.js"></script>
+    <!-- Titulo -->
+    <title>Guantes de Protección</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <!-- inicio de barra de navegacion -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <!-- logo -->
+                <a class="col-xl-6 col-lg-4 col-md-2" href="../index.html">
+                    <img class="logo" src="../imagenes/logo.png" alt="logo de mdm">
+                </a>
+                <!-- boton -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="navLink" href="../index.html">Inicio</a>
+                        </li>
+                        <!-- menu desplegable -->
+                        <li class="nav-item dropdown">
+                            <a class="navLink dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Productos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="ocularPagUno.html">Protección Ocular</a>
+                                </li>
+                                <li><a class="dropdown-item" href="respiratoriaPagUno.html">Protección Respiratoria</a>
+                                </li>
+                                <li><a class="dropdown-item" href="craneanaPagUno.html">Protección Craneana</a>
+                                </li>
+                                <li><a class="dropdown-item" href="indumentariaPagUno.html">Indumentaría</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Guantes de Proteccion</a>
+                                </li>
+                                <li><a class="dropdown-item" href="calzadoPagUno.html">Calzado de Seguridad</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navLink" href="../index.html#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navLink" href="../index.html#servicios">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navLink" href="../index.html#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin de barra de navegacion -->
+    </header>
+    <section class="seccionProductos">
+        <aside>
+            <h4>Productos</h5>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="linkAside" href="ocularPagUno.html">Protección Ocular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="linkAside" href="respiratoriaPagUno.html">Protección Respiratoria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="linkAside" href="craneanaPagUno.html">Protección Craneana</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="linkAside" href="indumentariaPagUno.html">Indumentaría</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="linkAside" href="#">Guantes de Protección</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="linkAside" href="calzadoPagUno.html">Calzado de Seguridad</a>
+                    </li>
+                </ul>
+        </aside>
+        <div class="container-fluid navegacionProductos">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html#categorias">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Guantes de Protección</li>
+                </ul>
+            </nav>
+            <form class="buscar" role="search">
+                <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search">
+                <button class="btn" type="submit">Buscar</button>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-filter"></i></a>
+            </form>
+            <div class="container-fluid row productosTodos">
+                <article class="card" style="width: 18rem;">
+                    <div id="guanteMoteado" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#guanteMoteado" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#guanteMoteado" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/guanteMoteado.png" class="d-block w-100"
+                                    alt="Guante Moteado">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/guanteMoteado2.png" class="d-block w-100"
+                                    alt="Guante Moteado">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#guanteMoteado"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#guanteMoteado"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="guanteMoteado.html">Guante Moteado Color Gris</a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="guanteMoteado.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="acriloNitrilo" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#acriloNitrilo" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#acriloNitrilo" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/acriloNitrilo.png" class="d-block w-100"
+                                    alt="Acrilo Nitrilo Color Verde">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/acriloNitrilo2.png" class="d-block w-100"
+                                    alt="Acrilo Nitrilo Color Verde">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#acriloNitrilo"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#acriloNitrilo"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="acriloNitrilo.html">Acrilo Nitrilo Color Verde</a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="acriloNitrilo.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="pvcRojo" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#pvcRojo" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#pvcRojo" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/pvcRojo.png" class="d-block w-100"
+                                    alt="Guante PVC Rojo Liviano 40cm">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/pvcRojo2.png" class="d-block w-100"
+                                    alt="Guante PVC Rojo Liviano 40cm">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#pvcRojo"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#pvcRojo"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="pvcRojo.html">Guante PVC Rojo Liviano 40cm</a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="pvcRojo.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="guanteNitrilo" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#guanteNitrilo" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#guanteNitrilo" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/Nitrilo.png" class="d-block w-100"
+                                    alt="Guante Nitrilo Puño De Lona ">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/Nitrilo2.png" class="d-block w-100"
+                                    alt="Guante Nitrilo Puño De Lona ">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#guanteNitrilo"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#guanteNitrilo"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="guanteNitrilo.html">Guante Nitrilo Puño De Lona </a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="guanteNitrilo.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="guantePU" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#guantePU" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#guantePU" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/GuanteTactilPU.png" class="d-block w-100"
+                                    alt="Guante Táctil PU  ">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/GuanteTactilPU2.png" class="d-block w-100"
+                                    alt="Guante Táctil PU  ">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#guantePU"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#guantePU"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="guantePU.html">Guante Táctil PU  </a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="guantePU.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="tactilNitrilo" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#tactilNitrilo" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#tactilNitrilo" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/guanteTactilNitrilo.png" class="d-block w-100"
+                                    alt="•	Guante táctil nitrilo ">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/guanteTactilNitrilo2.png" class="d-block w-100"
+                                    alt="•	Guante táctil nitrilo ">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#tactilNitrilo"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#tactilNitrilo"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="tactilNitrilo.html">Guante Táctil Nitrilo   </a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="tactilNitrilo.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="guanteDescarne" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#guanteDescarne" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#guanteDescarne" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/GuanteCueroDescarne.png" class="d-block w-100"
+                                    alt="Guante De Cuero Descarne Puño Corto Gris">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/GuanteCueroDescarne2.png" class="d-block w-100"
+                                    alt="Guante De Cuero Descarne Puño Corto Gris">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#guanteDescarne"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#guanteDescarne"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="guanteDescarne.html">Guante De Cuero Descarne Puño Corto Gris </a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="guanteDescarne.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="guanteSoldador" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#guanteSoldador" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#guanteSoldador" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/soldador.png" class="d-block w-100"
+                                    alt="Guante soldador forrado ">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/soldador2.png" class="d-block w-100"
+                                    alt="Guante soldador forrado ">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#guanteSoldador"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#guanteSoldador"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="guanteSoldador.html">Guante Soldador Forrado  </a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="guanteSoldador.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" style="width: 18rem;">
+                    <div id="precisionLatex" class="carousel carousel-dark slide container-fluid "
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#precisionLatex" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#precisionLatex" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="../imagenes/PrecisionLatex.png" class="d-block w-100"
+                                    alt="Guante Precisión Latex ">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="../imagenes/PrecisionLatex2.png" class="d-block w-100"
+                                    alt="Guante Precisión Latex  ">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#precisionLatex"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#precisionLatex"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="card-body boteDos">
+                        <a href="precisionLatex.html">Guante Precisión Latex   </a>
+                        <h4>$ 000</h4>
+                        <div class="iconos">
+                            <button type="button" class="btn btn-link"><a
+                                    href="precisionLatex.html">Descripción</a></button>
+                            <a href="#"><i class="fa-solid fa-cart-plus bote"></i></a>
+                            <a href="#"><i class="fa-solid fa-heart bote"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <nav aria-label="Page navigation example" class="numeracion">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">&lt;</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 contenidoFooter">
+                    <h3>Información</h3>
+                    <ul>
+                        <li><a href="../index.html#nosotros">Nosotros</a></li>
+                        <li><a href="../index.html#servicios">Servicio</a></li>
+                        <li><a href="../index.html#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 contenidoFooter">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="ocularPagUno.html">Protección Ocular</a></li>
+                        <li><a href="respiratoriaPagUno.html">Protección Respiratoria</a></li>
+                        <li><a href="craneanaPagUno.html">Protección Craneana</a></li>
+                        <li><a href="indumentariaPagUno.html">Indumentaría</a></li>
+                        <li><a href="#">Guantes de Protección</a></li>
+                        <li><a href="calzadoPagUno.html">Calzado de Seguridad</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 contenidoFooter">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p>+54 11 1111-1111</p>
+                    </ul>
+                    <h3>Horario</h3>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>8.30 a 13:00 / 13.30 a 17:00</p>
+                </div>
+                <div class="col-xl-3 col-lg-12 col-md-6 redes">
+                    <a href="#"><i class="fa-brands fa-facebook bote"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp bote"></i></a>
+                    <a href="#"><i class="fa-brands fa-yahoo bote"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="firma">
+        <h6>Elementos de Protección Personal y Seguridad Industrial | Buenos Aires - Argentina</h6>
+    </div>
+    <a href="#" class="subir">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="wow/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

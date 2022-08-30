@@ -438,6 +438,9 @@ footer {
   margin-left: 20px;
   justify-content: space-around;
 }
+.productosTodos article {
+  margin: 10px;
+}
 .productosTodos article img {
   transition: 0.5s linear;
 }
@@ -887,7 +890,6 @@ option {
     margin-left: -85px;
   }
   .btn {
-    margin-left: -50px;
     font-size: 30px;
   }
   .codigo {
