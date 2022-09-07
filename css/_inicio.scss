@@ -42,7 +42,7 @@ main {
         border-radius: 20px 0px;
 
         &:hover {
-            @include Color-Fondo($color2, $color2);
+            background-color: $color2;
         }
     }
 
@@ -67,7 +67,7 @@ main {
     }
 
     p {
-        @include TamañoFuente-Color(25px, $color2);
+        @include TamañoFuente-Color(28px, $color2);
         font-family: $fuente2;
         margin-bottom: -20px;
     }
@@ -93,11 +93,11 @@ main {
         font-family: $fuente1;
         font-weight: bold;
         font-style: italic;
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     p {
-        @include TamañoFuente-Color(20px, $color2);
+        @include TamañoFuente-Color(23px, $color2);
         font-family: $fuente2;
         padding: 10px;
     }
@@ -107,6 +107,7 @@ main {
         background-size: cover;
         background-position: center;
         border-radius: 50px 0px;
+        margin: 0px 5px;
     }
 
 }
@@ -149,6 +150,7 @@ main {
     }
 }
 
+
 // CONTACTO 
 .contacto {
     padding: 20px;
@@ -156,17 +158,18 @@ main {
 }
 
 .formulario {
-    font-weight: bold;
 
     h2 {
         @include TamañoFuente-Color(60px, $color3);
         font-family: $fuente1;
         font-style: italic;
+        font-weight: bold;
     }
 
     p {
-        @include TamañoFuente-Color(20px, $color2);
+        @include TamañoFuente-Color(23px, $color2);
         font-family: $fuente2;
+        font-weight: 600;
     }
 }
 
@@ -188,7 +191,7 @@ main {
 
 .formularioLeft {
     margin: 30px;
-    margin-left: 0;
+    margin-left: 0px;
     background-image: url(../imagenes/contacto.jpg);
     background-size: cover;
     background-position: center;

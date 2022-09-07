@@ -1,10 +1,6 @@
 /* CATEGORIAS */
-.productos{
-    padding: 20px;
-}
-
 .categorias {
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
 
     img {
@@ -21,11 +17,10 @@
         background-color: $color1;
         font-family: $fuente1;
         border-radius: 30px 0px;
-        display: inline-block;
+        // display: inline-block;
 
         &:hover{
             background-color: $color2;
-            color: $color1;
         }
     }
 }

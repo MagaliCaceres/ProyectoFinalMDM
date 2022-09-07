@@ -8,9 +8,9 @@
     }
 }
 
+
 .informacionProducto {
     padding: 30px;
-    padding-left: 40px;
     font-family: $fuente1;
 
     h2 {
@@ -36,34 +36,30 @@
     }
 }
 
-.codigo {
-    color: $color2;
+.codigo{
+    font-size: 18px;
 
     strong {
         color: $color1;
     }
 }
 
-.descripcionProducto {
-    font-size: 20px;
+.descripcionProducto{
+    font-size: 22px;
 }
 
 .precioProducto {
-    font-size: 30px;
+    font-size: 35px;
 }
 
-.talles {
-    margin: 30px 0px;
+.talles, .cantidad {
+    padding: 20px 0px;
+    font-size: 18px;
 
     label {
         padding-right: 10px;
 
     }
-
-}
-
-.cantidad {
-    margin-bottom: 30px;
 }
 
 .descripcionCompleta {
@@ -73,16 +69,6 @@
 
     h3 {
         @include TamañoFuente-Color(30px, $color1);
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-
-    li {
-        font-size: 20px;
-        margin: 5px 0px;
-
-        strong {
-            color: $color1;
-        }
+        margin-bottom: 10px;
     }
 }

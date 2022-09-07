@@ -1,1024 +1,1010 @@
-@charset "UTF-8";
 /* fuente Nunito*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
 /* rubik*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 /* Mulish */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=swap");
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .navbar {
-  background-color: #000;
-  text-align: center;
+    background-color: #000;
+    text-align: center;
 }
+
 .navbar button {
-  background-color: rgba(207, 42, 39, 0.6196078431);
+    background-color: rgba(207, 42, 39, 0.6196078431);
 }
 
 .logo {
-  height: 70px;
-  float: left;
+    height: 70px;
+    float: left;
 }
 
-.nav-item, .nav-item ul a {
-  font-family: "Mulish", sans-serif;
-  font-weight: 600;
-}
-.nav-item ul, .nav-item ul a ul {
-  background-color: #d01714;
-}
+.nav-item,
 .nav-item ul a {
-  font-size: 22px;
-  color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
 }
+
+.nav-item ul,
+.nav-item ul a ul {
+    background-color: #d01714;
+}
+
+.nav-item ul a {
+    font-size: 22px;
+    color: #fff;
+}
+
 .nav-item ul a:hover {
-  color: #000;
-  background-color: #d01714;
+    color: #000;
+    background-color: #d01714;
 }
 
 .navLink {
-  font-size: 25px;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
 }
+
 .navLink:hover {
-  color: #d01714;
+    color: #d01714;
 }
+
 .navLink:nth-of-type(1):hover {
-  border-bottom: 3px solid #d01714;
+    border-bottom: 3px solid #d01714;
 }
 
 main {
-  height: 40rem;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/main.jpg);
-  background-size: cover;
-  background-position: center;
+    height: 40rem;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/main.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .jumbotron {
-  padding-top: 200px;
-  padding-left: 40px;
-  font-family: "Rubik", sans-serif;
+    padding-top: 200px;
+    padding-left: 40px;
+    font-family: "Rubik", sans-serif;
 }
+
 .jumbotron div {
-  background-color: #d01714;
-  height: 10px;
-  width: 250px;
-  margin-top: -100px;
+    background-color: #d01714;
+    height: 10px;
+    width: 250px;
+    margin-top: -100px;
 }
+
 .jumbotron h1 {
-  font-size: 180px;
-  color: #000;
-  margin-left: -10px;
-  margin-top: -10px;
-  margin-bottom: -10px;
+    font-size: 180px;
+    color: #000;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
+
 .jumbotron h3 {
-  font-size: 50px;
-  color: #d01714;
+    font-size: 50px;
+    color: #d01714;
 }
+
 .jumbotron p {
-  font-size: 28px;
-  color: #000;
-  font-family: "Mulish", sans-serif;
-  font-style: italic;
-  font-weight: 500;
+    font-size: 28px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    font-style: italic;
+    font-weight: 500;
 }
+
 .jumbotron button {
-  background-color: #d01714;
-  font-size: 20px;
-  border-radius: 20px 0px;
+    background-color: #d01714;
+    font-size: 20px;
+    border-radius: 20px 0px;
 }
+
 .jumbotron button:hover {
-  color: #000;
-  background-color: #000;
+    background-color: #000;
 }
+
 .jumbotron a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 .titulosSesiones {
-  font-weight: 600;
-  padding-top: 40px;
-  padding-left: 50px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-left: 50px;
 }
+
 .titulosSesiones h2 {
-  font-size: 60px;
-  color: #d01714;
-  font-family: "Rubik", sans-serif;
-  padding-left: -10px;
-  font-weight: bold;
-  font-style: italic;
+    font-size: 60px;
+    color: #d01714;
+    font-family: "Rubik", sans-serif;
+    padding-left: -10px;
+    font-weight: bold;
+    font-style: italic;
 }
+
 .titulosSesiones p {
-  font-size: 25px;
-  color: #000;
-  font-family: "Mulish", sans-serif;
-  margin-bottom: -20px;
+    font-size: 28px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: -20px;
 }
 
 .separador {
-  background-color: #d01714;
-  margin-top: 50px;
-  height: 20px;
+    background-color: #d01714;
+    margin-top: 50px;
+    height: 20px;
 }
 
 /* CATEGORIAS */
-.productos {
-  padding: 20px;
+.categorias {
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.categorias {
-  justify-content: space-around;
-  text-align: center;
-}
 .categorias img {
-  width: 18rem;
-  transition: 0.5s linear;
+    width: 18rem;
+    transition: 0.5s linear;
 }
+
 .categorias img:hover {
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
+
 .categorias .btn {
-  font-size: 20px;
-  color: #fff;
-  background-color: #d01714;
-  font-family: "Rubik", sans-serif;
-  border-radius: 30px 0px;
-  display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background-color: #d01714;
+    font-family: "Rubik", sans-serif;
+    border-radius: 30px 0px;
 }
+
 .categorias .btn:hover {
-  background-color: #000;
-  color: #d01714;
+    background-color: #000;
 }
 
 .nosotros {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+
 .nosotros h2 {
-  font-size: 60px;
-  color: #d01714;
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  padding-top: 30px;
+    font-size: 60px;
+    color: #d01714;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 20px;
 }
+
 .nosotros p {
-  font-size: 20px;
-  color: #000;
-  font-family: "Mulish", sans-serif;
-  padding: 10px;
+    font-size: 23px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    padding: 10px;
 }
+
 .nosotros .imgNosotrosRigth {
-  background-image: url(../imagenes/nosotros.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px 0px;
+    background-image: url(../imagenes/nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px;
+    margin: 0px 5px;
 }
 
 .servicios {
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/fondo.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
-  margin-bottom: 30px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.122), rgba(255, 255, 255, 0.12)), url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-bottom: 30px;
 }
+
 .servicios div {
-  justify-content: space-around;
+    justify-content: space-around;
 }
+
 .servicios article {
-  background-color: #fff;
-  margin: 10px;
-  padding: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  border-radius: 30px 0px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 30px 0px;
 }
+
 .servicios article i {
-  font-size: 50px;
-  color: #d01714;
-  padding: 10px;
+    font-size: 50px;
+    color: #d01714;
+    padding: 10px;
 }
+
 .servicios article h3 {
-  font-size: 30px;
-  color: #d01714;
-  font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    color: #d01714;
+    font-family: "Rubik", sans-serif;
 }
+
 .servicios article p {
-  font-size: 20px;
-  color: #000;
-  font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
 }
 
 .contacto {
-  padding: 20px;
-  background-color: #d01714;
+    padding: 20px;
+    background-color: #d01714;
 }
 
-.formulario {
-  font-weight: bold;
-}
 .formulario h2 {
-  font-size: 60px;
-  color: #fff;
-  font-family: "Rubik", sans-serif;
-  font-style: italic;
+    font-size: 60px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
+
 .formulario p {
-  font-size: 20px;
-  color: #000;
-  font-family: "Mulish", sans-serif;
+    font-size: 23px;
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
 }
 
 .formularioContenido {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+
 .formularioContenido label,
 .formularioContenido option {
-  font-family: "Mulish", sans-serif;
-  font-weight: bold;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
 }
 
 .form-check {
-  color: #000;
-  margin-top: 10px;
+    color: #000;
+    margin-top: 10px;
 }
 
 .formularioLeft {
-  margin: 30px;
-  margin-left: 0;
-  background-image: url(../imagenes/contacto.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px 0px;
+    margin: 30px;
+    margin-left: 0px;
+    background-image: url(../imagenes/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px 0px;
 }
 
 .enviar {
-  margin: 10px;
-  color: #fff;
-  background-color: #000;
-  font-family: "Rubik", sans-serif;
+    margin: 10px;
+    color: #fff;
+    background-color: #000;
+    font-family: "Rubik", sans-serif;
 }
+
 .enviar:hover {
-  color: #d01714;
+    color: #d01714;
 }
 
 /* FOOTER */
 footer {
-  padding-bottom: 10px;
-  background-color: #000;
+    padding-bottom: 10px;
+    background-color: #000;
 }
 
 .contenidoFooter {
-  padding-top: 20px;
-  padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
+
 .contenidoFooter h3 {
-  font-family: "Rubik", sans-serif;
-  font-size: 25px;
-  color: rgba(208, 23, 20, 0.6117647059);
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    color: rgba(208, 23, 20, 0.6117647059);
 }
+
 .contenidoFooter ul {
-  margin-left: -30px;
+    margin-left: -30px;
 }
+
 .contenidoFooter ul li {
-  list-style: none;
+    list-style: none;
 }
+
 .contenidoFooter ul li a {
-  font-size: 22px;
-  color: #fff;
-  font-family: "Mulish", sans-serif;
-  text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
 }
+
 .contenidoFooter ul li a:hover {
-  color: #d01714;
+    color: #d01714;
 }
+
 .contenidoFooter i {
-  font-size: 22px;
-  color: rgba(208, 23, 20, 0.6117647059);
-  padding: 5px;
+    font-size: 22px;
+    color: rgba(208, 23, 20, 0.6117647059);
+    padding: 5px;
 }
+
 .contenidoFooter p {
-  font-size: 22px;
-  color: #fff;
-  display: inline;
+    font-size: 22px;
+    color: #fff;
+    display: inline;
 }
 
 .redes {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+
 .redes i {
-  font-size: 50px;
-  color: rgba(208, 23, 20, 0.6117647059);
-  letter-spacing: 10px;
-  padding: 10px;
+    font-size: 50px;
+    color: rgba(208, 23, 20, 0.6117647059);
+    letter-spacing: 10px;
+    padding: 10px;
 }
 
 .fa-whatsapp:hover {
-  color: #2aa00f;
+    color: #2aa00f;
 }
 
 .fa-facebook:hover {
-  color: #0f22a0;
+    color: #0f22a0;
 }
 
 .fa-yahoo:hover {
-  color: #940fa0;
+    color: #940fa0;
 }
 
 .firma {
-  background-color: #fff;
+    background-color: #000;
 }
+
 .firma h6 {
-  color: #000;
-  font-family: "Rubik", sans-serif;
-  text-align: center;
-  letter-spacing: 0.5px;
-  padding: 20px;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 20px;
+    margin: 0px;
 }
 
 .subir {
-  font-size: 25px;
-  color: #fff;
-  width: 50px;
-  background-color: #d01714;
-  text-align: center;
-  line-height: 50px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  border-radius: 50px;
+    font-size: 25px;
+    color: #fff;
+    width: 50px;
+    background-color: #d01714;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
 }
+
 .subir:hover {
-  color: #000;
+    color: #000;
 }
 
 .seccionProductos {
-  display: grid;
-  grid-template-columns: 0.3fr 1.4fr;
+    display: grid;
+    grid-template-columns: 0.3fr 1.4fr;
 }
+
 .seccionProductos aside {
-  padding: 20px;
-  padding-top: 100px;
+    padding: 20px;
+    padding-top: 100px;
 }
+
 .seccionProductos aside h4 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .seccionProductos aside ul {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .seccionProductos aside ul li {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
+    text-align: start;
 }
+
 .seccionProductos aside ul li a {
-  color: rgb(98, 98, 98);
-  text-decoration: none;
+    color: rgb(98, 98, 98);
+    text-decoration: none;
 }
+
 .seccionProductos aside ul li a:hover {
-  color: #000;
+    color: #000;
 }
 
 .navegacionProductos {
-  padding: 20px;
-  margin-top: 20px;
+    padding: 20px;
+    margin-top: 20px;
 }
+
 .navegacionProductos li {
-  font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
+
 .navegacionProductos li a {
-  color: #d01714;
-  text-decoration: none;
+    color: #d01714;
+    text-decoration: none;
 }
+
 .navegacionProductos li a:hover {
-  color: #000;
+    color: #000;
 }
+
 .navegacionProductos form {
-  display: flex;
-  justify-content: end;
+    display: flex;
+    justify-content: end;
 }
+
 .navegacionProductos form input {
-  width: 50%;
+    width: 50%;
 }
+
 .navegacionProductos form button {
-  color: #fff;
-  background-color: #d01714;
-  font-family: "Rubik", sans-serif;
+    color: #fff;
+    background-color: #d01714;
+    font-family: "Rubik", sans-serif;
 }
+
 .navegacionProductos form i {
-  font-size: 22px;
-  color: #d01714;
-  padding: 5px;
-  padding-left: 12px;
-  padding-top: 8px;
+    font-size: 22px;
+    color: #d01714;
+    padding: 5px;
+    padding-left: 12px;
+    padding-top: 8px;
 }
+
 .navegacionProductos form i:hover {
-  color: #000;
+    color: #000;
 }
 
 .productosTodos {
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-around;
 }
+
 .productosTodos article {
-  margin: 10px;
+    margin: 10px;
 }
+
 .productosTodos article img {
-  transition: 0.5s linear;
+    transition: 0.5s linear;
 }
+
 .productosTodos article img:hover {
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .card-body a {
-  font-size: 22px;
-  color: #d01714;
-  font-family: "Rubik", sans-serif;
-  text-decoration: none;
+    font-size: 22px;
+    color: #d01714;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
 }
+
 .card-body a:hover {
-  color: #000;
+    color: #000;
 }
 
 .card-body h4 {
-  text-align: start;
+    text-align: start;
 }
 
 .iconos {
-  text-align: end;
-  margin-top: 20px;
+    text-align: end;
+    margin-top: 20px;
 }
+
 .iconos button {
-  background-color: #d01714;
-  text-decoration: none;
-  margin-right: 30px;
+    background-color: #d01714;
+    text-decoration: none;
+    margin-right: 30px;
 }
+
 .iconos button:hover {
-  background-color: #000;
+    background-color: #000;
 }
+
 .iconos a {
-  font-size: 16px;
-  color: #fff;
-  font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
 }
+
 .iconos a:hover {
-  color: #fff;
+    color: #fff;
 }
+
 .iconos i {
-  font-size: 25px;
-  color: #d01714;
-  padding: 5px;
+    font-size: 25px;
+    color: #d01714;
+    padding: 5px;
 }
+
 .iconos i:hover {
-  color: #000;
+    color: #000;
 }
 
 .numeracion {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-item img {
-  transition: 0.5s linear;
+    transition: 0.5s linear;
 }
+
 .carousel-item img:hover {
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .informacionProducto {
-  padding: 30px;
-  padding-left: 40px;
-  font-family: "Rubik", sans-serif;
+    padding: 30px;
+    font-family: "Rubik", sans-serif;
 }
+
 .informacionProducto h2 {
-  font-size: 40px;
-  color: #d01714;
+    font-size: 40px;
+    color: #d01714;
 }
+
 .informacionProducto button {
-  background-color: #d01714;
-  border-radius: 40px 0px;
+    background-color: #d01714;
+    border-radius: 40px 0px;
 }
+
 .informacionProducto button a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
+
 .informacionProducto button a:hover {
-  color: #000;
+    color: #000;
 }
+
 .informacionProducto button a i {
-  padding: 0px 10px;
+    padding: 0px 10px;
 }
 
 .codigo {
-  color: #000;
+    font-size: 18px;
 }
+
 .codigo strong {
-  color: #d01714;
+    color: #d01714;
 }
 
 .descripcionProducto {
-  font-size: 20px;
+    font-size: 22px;
 }
 
 .precioProducto {
-  font-size: 30px;
+    font-size: 35px;
 }
 
-.talles {
-  margin: 30px 0px;
-}
-.talles label {
-  padding-right: 10px;
-}
-
+.talles,
 .cantidad {
-  margin-bottom: 30px;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.talles label,
+.cantidad label {
+    padding-right: 10px;
 }
 
 .descripcionCompleta {
-  font-family: "Mulish", sans-serif;
-  padding: 20px;
-  margin-top: 20px;
+    font-family: "Mulish", sans-serif;
+    padding: 20px;
+    margin-top: 20px;
 }
+
 .descripcionCompleta h3 {
-  font-size: 30px;
-  color: #d01714;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-.descripcionCompleta li {
-  font-size: 20px;
-  margin: 5px 0px;
-}
-.descripcionCompleta li strong {
-  color: #d01714;
+    font-size: 30px;
+    color: #d01714;
+    margin-bottom: 10px;
 }
 
 .transicion {
-  -webkit-animation: 2s transicion 1;
-          animation: 2s transicion 1;
-  transform-origin: top left;
+    -webkit-animation: 2s transicion 1;
+    animation: 2s transicion 1;
+    transform-origin: top left;
 }
 
 @-webkit-keyframes transicion {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.9;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
 }
 
 @keyframes transicion {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.9;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
 }
+
 .bote:hover {
-  -webkit-animation: 2s bote infinite;
-          animation: 2s bote infinite;
+    -webkit-animation: 2s bote infinite;
+    animation: 2s bote infinite;
 }
 
 @-webkit-keyframes bote {
-  20%, 50%, 80% {
-    -webkit-transform: translateY(20);
-  }
-  65% {
-    -webkit-transform: translateY(-20px);
-  }
+
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(20);
+    }
+
+    65% {
+        -webkit-transform: translateY(-20px);
+    }
 }
 
 @keyframes bote {
-  20%, 50%, 80% {
-    -webkit-transform: translateY(20);
-  }
-  65% {
-    -webkit-transform: translateY(-20px);
-  }
+
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(20);
+    }
+
+    65% {
+        -webkit-transform: translateY(-20px);
+    }
 }
+
 .boteDos:hover {
-  -webkit-animation: 3s bote 1;
-          animation: 3s bote 1;
+    -webkit-animation: 3s bote 1;
+    animation: 3s bote 1;
 }
 
 .balanceo {
-  -webkit-animation: 3s balanceo infinite;
-          animation: 3s balanceo infinite;
+    -webkit-animation: 3s balanceo infinite;
+    animation: 3s balanceo infinite;
 }
 
 @-webkit-keyframes balanceo {
-  20% {
-    -webkit-transform: rotate(-0.1deg);
-  }
-  30%, 50%, 70%, 90% {
-    -webkit-transform: rotate(0.5deg);
-  }
-  40%, 60%, 80% {
-    -webkit-transform: rotate(-0.1deg);
-  }
+    20% {
+        -webkit-transform: rotate(-0.1deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: rotate(0.5deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: rotate(-0.1deg);
+    }
 }
 
 @keyframes balanceo {
-  20% {
-    -webkit-transform: rotate(-0.1deg);
-  }
-  30%, 50%, 70%, 90% {
-    -webkit-transform: rotate(0.5deg);
-  }
-  40%, 60%, 80% {
-    -webkit-transform: rotate(-0.1deg);
-  }
+    20% {
+        -webkit-transform: rotate(-0.1deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: rotate(0.5deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: rotate(-0.1deg);
+    }
 }
+
 .balanceoDos {
-  -webkit-animation: 3s balanceo infinite;
-          animation: 3s balanceo infinite;
+    -webkit-animation: 3s balanceo infinite;
+    animation: 3s balanceo infinite;
 }
 
 @-webkit-keyframes balanceoDos {
-  20% {
-    -webkit-transform: rotate(-2deg);
-  }
-  30%, 50%, 70%, 90% {
-    -webkit-transform: rotate(1deg);
-  }
-  40%, 60%, 80% {
-    -webkit-transform: rotate(-2deg);
-  }
+    20% {
+        -webkit-transform: rotate(-2deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: rotate(1deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: rotate(-2deg);
+    }
 }
 
 @keyframes balanceoDos {
-  20% {
-    -webkit-transform: rotate(-2deg);
-  }
-  30%, 50%, 70%, 90% {
-    -webkit-transform: rotate(1deg);
-  }
-  40%, 60%, 80% {
-    -webkit-transform: rotate(-2deg);
-  }
+    20% {
+        -webkit-transform: rotate(-2deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: rotate(1deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: rotate(-2deg);
+    }
 }
+
 @media only screen and (min-width: 2000px) and (max-width: 2560px) {
-  .navLink {
-    font-size: 38px;
-  }
-  .dropdown-item {
-    font-size: 32px;
-  }
-  .lineaMdm {
-    width: 400px;
-  }
-  .jumbotron h1 {
-    font-size: 280px;
-    margin-bottom: -30px;
-  }
-  .jumbotron h3 {
-    font-size: 60px;
-  }
-  .jumbotron p {
-    font-size: 32px;
-  }
-  .jumbotron button {
-    font-size: 30px;
-  }
-  .titulosSesiones h2 {
-    font-size: 100px;
-  }
-  .titulosSesiones p {
-    font-size: 40px;
-  }
-  .categorias .btn {
-    font-size: 30px;
-  }
-  .textoNosotrosLeft h2 {
-    font-size: 100px;
-  }
-  .textoNosotrosLeft p {
-    font-size: 30px;
-    padding: 20px;
-  }
-  .servicioDos i {
-    font-size: 80px;
-  }
-  .servicioDos h3 {
-    font-size: 50px;
-  }
-  .servicioDos p {
-    font-size: 30px;
-  }
-  .servicioDos a {
-    font-size: 26px;
-  }
-  .formulario h2 {
-    font-size: 90px;
-  }
-  .formulario p {
-    font-size: 30px;
-  }
-  label,
-option {
-    font-size: 25px;
-  }
-  .form-check {
-    font-size: 20px;
-  }
-  .enviar {
-    font-size: 25px;
-  }
-  .redes i {
-    font-size: 80px;
-  }
-  .productoIndividual nav {
-    font-size: 30px;
-  }
-  .codigo {
-    font-size: 30px;
-  }
-  .nombreProducto {
-    font-size: 70px;
-  }
-  .descripcionProducto {
-    font-size: 40px;
-  }
-  .precioProducto {
-    font-size: 50px;
-  }
-  .talles,
-.cantidad {
-    font-size: 25px;
-  }
-  .añadirAlCarrito a {
-    font-size: 25px;
-  }
-  .descripcionCompleta h3 {
-    font-size: 45px;
-  }
-  .descripcionCompleta li {
-    font-size: 30px;
-  }
+
+    label,
+    option {
+        font-size: 20px;
+    }
+
+    .enviar {
+        font-size: 22px;
+    }
 }
+
 @media only screen and (min-width: 1700px) and (max-width: 1999px) {
-  .navLink {
-    font-size: 30px;
-  }
-  .dropdown-item {
-    font-size: 28px;
-  }
-  .lineaMdm {
-    width: 300px;
-  }
-  .jumbotron h1 {
-    font-size: 230px;
-    margin-bottom: -30px;
-  }
-  .jumbotron button {
-    font-size: 28px;
-  }
-  .categorias {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-  }
-  .categorias img {
-    margin-left: -85px;
-  }
-  .categorias .btn {
-    margin-left: -50px;
-    font-size: 30px;
-  }
-  .titulosSesiones h2 {
-    font-size: 70px;
-  }
-  .titulosSesiones p {
-    font-size: 35px;
-  }
-  .textoNosotrosLeft h2 {
-    font-size: 70px;
-  }
-  .textoNosotrosLeft p {
-    font-size: 25px;
-  }
-  .servicioDos i {
-    font-size: 70px;
-  }
-  .servicioDos h3 {
-    font-size: 40px;
-  }
-  .servicioDos p {
-    font-size: 25px;
-  }
-  .servicioDos a {
-    font-size: 22px;
-  }
-  .formulario h2 {
-    font-size: 70px;
-  }
-  .formulario p {
-    font-size: 25px;
-  }
-  .input {
-    border: 20px;
-  }
-  label,
-option {
-    font-size: 22px;
-  }
-  .form-check {
-    font-size: 20px;
-  }
-  .enviar {
-    font-size: 20px;
-  }
-  .redes i {
-    font-size: 60px;
-  }
-  .codigo {
-    font-size: 20px;
-  }
-  .nombreProducto {
-    font-size: 50px;
-  }
-  .descripcionProducto {
-    font-size: 30px;
-  }
-  .precioProducto {
-    font-size: 40px;
-  }
-  .talles {
-    font-size: 20px;
-  }
-  .cantidad {
-    font-size: 20px;
-  }
-  .añadirAlCarrito a {
-    font-size: 20px;
-  }
-  .descripcionCompleta h3 {
-    font-size: 40px;
-  }
-  .descripcionCompleta li {
-    font-size: 25px;
-  }
+    .categorias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .categorias img {
+        margin-left: -100px;
+    }
+
+    .categorias .btn {
+        width: 300px;
+        margin-left: -100px;
+    }
+
+    label,
+    option {
+        font-size: 18px;
+    }
+
+    .enviar {
+        font-size: 20px;
+    }
+
+    .descripcionProducto {
+        font-size: 25px;
+    }
+
+    .cantidad {
+        font-size: 20px;
+    }
+
+    .descripcionCompleta h3 {
+        font-size: 40px;
+    }
 }
+
+@media only screen and (min-width: 1594px) and (max-width: 1999px) {
+    .productosTodos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+
 @media only screen and (min-width: 1400px) and (max-width: 1699px) {
-  .categorias {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-  }
-  .categorias img {
-    margin-left: -85px;
-  }
-  .btn {
-    font-size: 30px;
-  }
-  .codigo {
-    font-size: 20px;
-  }
-  .nombreProducto {
-    font-size: 50px;
-  }
-  .descripcionProducto {
-    font-size: 30px;
-  }
-  .precioProducto {
-    font-size: 40px;
-  }
-  .talles {
-    font-size: 20px;
-  }
-  .cantidad {
-    font-size: 20px;
-  }
-  .añadirAlCarrito a {
-    font-size: 20px;
-  }
-  .descripcionCompleta h3 {
-    font-size: 40px;
-  }
-  .descripcionCompleta li {
-    font-size: 25px;
-  }
+    .categorias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .categorias img {
+        margin-left: -100px;
+    }
+
+    .categorias .btn {
+        width: 300px;
+        margin-left: -100px;
+    }
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .jumbotron p {
-    padding-right: 400px;
-  }
+    .jumbotron p {
+        padding-right: 400px;
+    }
 }
+
 @media only screen and (min-width: 651px) and (max-width: 768px) {
-  .jumbotron p {
-    padding-right: 200px;
-  }
-  .productoIndividual,
-.descripcionCompleta {
-    flex-direction: column;
-  }
+
+    .nav-item,
+    .nav-item ul a {
+        text-align: center;
+    }
+
+    main {
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.645), rgba(255, 255, 255, 0.12)), url(../imagenes/main.jpg);
+    }
+
+    .jumbotron p {
+        padding-right: 200px;
+    }
+
+    .productoIndividual,
+    .descripcionCompleta {
+        flex-direction: column;
+    }
 }
+
 @media only screen and (min-width: 300px) and (max-width: 650px) {
-  main {
-    height: 40rem;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.645), rgba(255, 255, 255, 0.12)), url(../imagenes/index/fondoMain2.jpg);
-    background-position: right;
-  }
-  .jumbotron h1 {
-    font-size: 150px;
-  }
-  .titulosSesiones {
-    padding-left: 20px;
-  }
-  .titulosSesiones h2 {
-    font-size: 52px;
-  }
-  .nosotros {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 300px;
-  }
-  .imgNosotrosRigth {
-    height: 300px;
-    border-radius: 50px 0px;
-  }
-  .formularioContenido {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px auto;
-  }
-  .formularioLeft {
-    margin: 20px;
-  }
-  .formulario h2 {
-    font-size: 50px;
-  }
-  aside {
-    width: 100%;
-  }
-  aside h4 {
-    margin-top: -70px;
-  }
-  aside ul {
-    display: flex;
-    flex-direction: row;
-  }
-  aside ul li {
-    padding: 10px;
-  }
-  .seccionProductos {
-    display: flex;
-    flex-wrap: wrap-reverse;
-  }
-  .productoIndividual,
-.descripcionCompleta {
-    flex-direction: column;
-  }
+
+    .nav-item,
+    .nav-item ul a {
+        text-align: center;
+    }
+
+    main {
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.861), rgba(255, 255, 255, 0)), url(../imagenes/main.jpg);
+        background-position: right;
+    }
+
+    .jumbotron {
+        padding-left: 30px;
+    }
+
+    .jumbotron h1 {
+        font-size: 140px;
+    }
+
+    .titulosSesiones {
+        padding-left: 20px;
+    }
+
+    .titulosSesiones h2 {
+        font-size: 52px;
+    }
+
+    .formularioContenido {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px auto;
+    }
+
+    .formularioLeft {
+        margin: 20px;
+    }
+
+    .formulario h2 {
+        font-size: 50px;
+    }
+
+    .seccionProductos {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .seccionProductos aside h4 {
+        margin-top: -100px;
+    }
+
+    .seccionProductos aside ul {
+        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .productoIndividual,
+    .descripcionCompleta {
+        flex-direction: column;
+    }
 }
-@media only screen and (min-width: 300px) and (max-width: 375px) {
-  .jumbotron h1 {
-    font-size: 140px;
-  }
-  .jumbotron h3 {
-    text-shadow: 0 0 5px rgba(254, 254, 254, 0.563);
-  }
-  .iconos button {
-    margin-right: 0px;
-    margin-left: -30px;
-  }
+
+@media only screen and (min-width: 300px) and (max-width: 367px) {
+    .iconos {
+        text-align: start;
+    }
+
+    .iconos button {
+        margin-right: 0px;
+    }
+
+    .iconos i {
+        font-size: 22px;
+        color: #d01714;
+        padding: 0px;
+        padding-left: 0px;
+        letter-spacing: 4px;
+    }
 }
-@media only screen and (min-width: 300px) and (max-width: 355px) {
-  .jumbotron {
-    padding-left: 20px;
-  }
-  .jumbotron h1 {
-    font-size: 120px;
-    margin-bottom: 20px;
-  }
-  .jumbotron h3 {
-    font-size: 40px;
-  }
-  .titulosSesiones h2 {
-    font-size: 45px;
-  }
-  .formulario h2 {
-    font-size: 40px;
-  }
-}/*# sourceMappingURL=estilos.css.map */
+
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+    main {
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.453)), url(../imagenes/main.jpg);
+    }
+
+    .jumbotron {
+        padding-left: 20px;
+    }
+
+    .jumbotron h1 {
+        font-size: 130px;
+    }
+
+    .jumbotron h3 {
+        font-size: 45px;
+    }
+
+    .titulosSesiones h2 {
+        font-size: 45px;
+    }
+
+    .formulario h2 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+    .nosotros {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 300px;
+    }
+
+    .imgNosotrosRigth {
+        height: 300px;
+        border-radius: 50px 0px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .productoIndividual .carousel {
+        width: 20rem;
+    }
+}
+
+/*# sourceMappingURL=estilos.css.map */

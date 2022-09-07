@@ -69,13 +69,14 @@ $redes: (
     }
 }
 .firma {
-    background-color: $color3;
+    background-color: $color2;
 
     h6 {
-        color: $color2;
-        font-family: $fuente1;
+        color: $color3;
+        font-family: $fuente2;
         text-align: center;
         letter-spacing: 0.5px;
         padding: 20px;
+        margin: 0px;
     }
 }
